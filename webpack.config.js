@@ -3,7 +3,7 @@ const path = require("path")
 module.exports = [
     {
         output: {
-            filename: 'shopify-theme-translations-tool.js',
+            filename: 'shopify-product-from.js',
             path: path.resolve(__dirname, 'dist'),
             library: ["ShopifyProductForm"],
         },
