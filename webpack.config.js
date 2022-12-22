@@ -3,7 +3,7 @@ const path = require("path")
 module.exports = [
     {
         output: {
-            filename: 'shopify-product-from.js',
+            filename: 'shopify-product-form.js',
             path: path.resolve(__dirname, 'dist'),
             library: ["ShopifyProductForm"],
         },
